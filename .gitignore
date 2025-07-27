@@ -1,0 +1,26 @@
+# Terraform directories and plugins
+.terraform/
+.terraform.lock.hcl
+
+# State files
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.backup
+
+# Variable values (kan inneholde secrets)
+terraform.tfvars
+*.tfvars
+*.tfvars.json
+
+# Crash log
+crash.log
+
+# Editor/OS-specific
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.backup
